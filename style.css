@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-template-rows: repeat(8, 50px);
+}
+
+.box-img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.fish {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.vase-short {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+.map {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+.vase-tall {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 9;
+}
+.bamboo {
+  grid-column-start: 3;
+  grid-column-end: 9;
+  grid-row-start: 5;
+  grid-row-end: 8;
+}
+.octo {
+  grid-column-start: 3;
+  grid-column-end: 9;
+  grid-row-start: 8;
+  grid-row-end: 9;
+}
